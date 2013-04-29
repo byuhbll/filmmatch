@@ -1,0 +1,34 @@
+<?php
+
+/**
+ * Database connection information
+ */
+define('DB_HOST', 'localhost');
+define('DB_NAME', 'filmmatch');
+define('DB_USERNAME', 'filmmatch');
+define('DB_PASSWORD', 'filmmatch');
+
+
+/**
+ * Register with The Movie Database and request an API key
+ * http://www.themoviedb.org/documentation/api
+ * define('TMDB_API_KEY', '0123456789abcdef0123456789abcdef');
+ */
+define('TMDB_API_KEY', '<YOUR_TMDB_API_KEY>');
+
+
+/**
+ * Catalog template. This will be used as the left hand side of the matching
+ * application. Occurrences of {{CAT_ID}} in the template will be replaced by
+ * the catalog ID in the Record table.
+ * define('CATALOG_TEMPLATE', 'http://www.example.com/catalog/{{CAT_ID}}');
+ */
+define('CATALOG_TEMPLATE', '<YOUR_CATALOG_URI>');
+
+
+/**
+ * Error message sent to the user when something has gone wrong
+ */
+define('ERROR_MESSAGE', 'There was an error, please try again later');
+
+?>
