@@ -21,7 +21,7 @@ Experience managing a LAMP stack is required.
 Film Match was developed to run on a LAMP stack (Linux, Apache, MySQL, and PHP).
 Other software bundles are possible, but may require tweaks to the code.
 
-1. Download Film Match from http://github.org/byuhbll/filmmatch which I'm
+1. Download Film Match from https://bitbucket.org/byuhbll/filmmatch which I'm
    assuming you have already done.
 
 2. Copy or link the contents of filmmatch to where your web application will be
