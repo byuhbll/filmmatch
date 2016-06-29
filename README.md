@@ -1,3 +1,5 @@
+IMPORTANT: This project has been moved to https://bitbucket.org/byuhbll/filmmatch.
+
 Film Match
 ==========
 
